@@ -3,5 +3,5 @@
 
 мои сайты
 
-[кликай сюда](https://qwerty1070.github.io/lesson_13/ "кликай сюда")
+[кликай сюда](https://qwerty1070.github.io/lesson_13/ "кликай сюда") - работа с репозиторием на github
 
