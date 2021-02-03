@@ -3,5 +3,5 @@
 
 мои сайты
 
-[урок 13](https://qwerty1070.github.io/lesson_13/ "кликай сюда")
+[кликай сюда](https://qwerty1070.github.io/lesson_13/ "кликай сюда")
 
