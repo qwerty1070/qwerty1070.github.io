@@ -1,0 +1,748 @@
+/*Colors*/
+.header {
+  height: 4.5rem;
+}
+.logo {
+  font-size: 35px;
+  padding: 8px;
+}
+.phone-link {
+  display: inline-block;
+  font-weight: 900;
+  font-size: 1.3rem;
+  text-decoration: none;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  color: #1a1820;
+}
+.button {
+  background-color: #fcb303;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+}
+.form {
+  /*Главная форма*/
+  padding: 2rem 1.5rem 1rem 1.5rem;
+  background-color: #fff;
+  text-align: center;
+}
+.form-header {
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+}
+.form-input {
+  display: inline-block;
+  margin: 1rem 0;
+  width: 100%;
+  border: 1px solid #dddddd;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.form label {
+  position: absolute;
+  left: 80%;
+  transform: translateX(-50%) translateY(-3%);
+  padding: 0.3rem;
+  background-color: #fff;
+}
+.form-btn {
+  display: block;
+  height: 3rem;
+  width: 100%;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+.form-btn:hover {
+  cursor: pointer;
+  background-color: #e3a103;
+  color: #000;
+}
+section {
+  padding: 10rem 0;
+}
+.section-header {
+  margin: 1.5rem 0 10rem;
+  text-align: center;
+  font-size: 2.3rem;
+}
+.section-header_light {
+  color: #fff;
+}
+.section-header h2 {
+  font-size: 3rem;
+}
+.section-header p {
+  font-size: 1.2rem;
+}
+/*main*/
+.main {
+  padding: 2rem 0;
+  background: #fff url(../img/main_bg.jpg) center center no-repeat;
+}
+.main-content {
+  margin-top: 7rem ;
+  /*главный заголовок */
+}
+.main-content h1 {
+  line-height: 1.45;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+.main-subtitl {
+  /*подзагоовок*/
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+.main span {
+  /*зелёная иконка*/
+  display: inline-block;
+  padding: 1rem;
+  background-color: #008000;
+  text-align: center;
+  border-radius: 8px ;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+.main span strong {
+  /*цыфра 300*/
+  display: inline-block;
+  font-size: 1.2rem;
+}
+.main-first {
+  /*последний текст с лева*/
+  text-transform: uppercase;
+}
+.main-form-btn {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #e3a103;
+  color: #000;
+}
+.warp {
+  display: table;
+  width: 100%;
+  height: 4.5rem;
+}
+.warp-block {
+  display: table-cell;
+  vertical-align: middle;
+}
+/*Секция с ценами*/
+.price {
+  background: #008000;
+}
+.price-header-btn {
+  margin-top: 2.5rem;
+  padding: 1rem;
+}
+.price-block {
+  background-color: #fff;
+  padding: 2rem;
+  text-align: center;
+  width: 410px;
+  height: 760px;
+}
+.price-button {
+  background-color: #fcb303;
+  color: #fff;
+  padding: 1rem 5rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+}
+.price h4 {
+  font-size: 1.3rem;
+  margin: 1rem 0 3rem 0;
+}
+.price img {
+  vertical-align: middle;
+  /*width: 350px;*/
+  height: 250px;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 25rem;
+}
+.lgbt {
+  text-align: right;
+}
+.price-block span {
+  font-size: 25px;
+}
+.price-list {
+  margin: 1.8rem;
+  margin-left: -35px;
+  min-height: 11rem;
+  list-style-type: none;
+  padding: 0.2rem;
+}
+.price-list li:before {
+  content: '';
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.8rem;
+  background: url(../img/svg/checked.svg) no-repeat center;
+  background-size: 100%;
+  vertical-align: middle;
+}
+/*ОФОРМЛЕНИЯ БЛОКА С ПРЕИМУШИСТВАМИ*/
+.features {
+  text-align: center;
+}
+.features p {
+  display: inline-block;
+  width: 80%;
+  font-size: 0.9rem;
+}
+.features h3 {
+  margin-bottom: 2rem;
+}
+.feature-img {
+  margin-bottom: 12%;
+  display: inline-block;
+}
+.slick-active {
+  outline: none;
+}
+.arrow {
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+}
+.prev {
+  left: 0;
+  background: url(../img/svg/left-arrow.svg) center no-repeat;
+  background-size: 60%;
+}
+.next {
+  right: 0;
+  background: url(../img/svg/right-arrow.svg) center no-repeat;
+  background-size: 60%;
+}
+.big {
+  font-size: 1rem;
+}
+/*Оформление модальных окон*/
+.popup-content {
+  position: fixed;
+  left: 50%;
+  top: 7%;
+  background-color: #fff;
+  transform: translateX(-50%);
+  padding: 2rem 1.5rem;
+}
+.popup-close {
+  position: absolute;
+  top: -1.8rem;
+  right: -1.7rem;
+  width: 1.3rem;
+  height: 1.5rem;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-size: 2.6rem;
+}
+.popup-content {
+  text-align: center;
+}
+.popup-form {
+  width: 20rem;
+  padding: 0 1.5rem 0rem;
+  background-color: #fff;
+  text-align: center;
+}
+.popup-input {
+  display: inline-block;
+  margin: 1rem 0;
+  width: 100%;
+  border: 1px solid #dddddd;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.popup label {
+  position: absolute;
+  left: 49%;
+  transform: translateX(-50%) translateY(-3%);
+  padding: 0.3rem;
+  background-color: #fff;
+}
+.popup-btn {
+  display: block;
+  height: 3rem;
+  width: 100%;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+.popup-btn:hover {
+  cursor: pointer;
+  background-color: #e3a103;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+}
+.modal .modal_content {
+  background-color: #fefefe;
+  top: 7%;
+  padding: 20px;
+  border: 1px solid #888;
+  z-index: 99999;
+}
+.modal .modal_content .close_modal_window {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.feedback {
+  position: relative;
+  background: url(../img/feedback/bg.jpg) no-repeat center;
+  background-size: cover;
+}
+.feedback-slider {
+  padding: 3rem 3rem;
+  background-color: #fff;
+  box-shadow: 15px 15px 8px 0px rgba(0, 0, 0, 0.15);
+  width: 70rem;
+  margin: auto 4rem auto 4rem;
+}
+.feedback-prev-btn {
+  position: absolute;
+  top: 50%;
+  left: -4%;
+  transform: translateY(-50%);
+  border: none;
+  width: 3rem;
+  height: 4rem;
+  z-index: 100;
+}
+.feedback-next-btn {
+  position: absolute;
+  top: 50%;
+  right: -4%;
+  transform: translateY(-50%);
+  border: none;
+  width: 3rem;
+  height: 4rem;
+}
+.feedback p {
+  font-size: 1rem;
+}
+.feedback-text {
+  position: relative;
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  border: 2px solid #46b814;
+  font-style: italic;
+}
+.feedback-text::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -1.5rem;
+  left: 3rem;
+  width: 1.3rem;
+  height: 1.5rem;
+  background: #fff;
+  border: 2px solid #008000;
+  border-bottom: none;
+  border-top-right-radius: 190px;
+}
+.feedback-two h3 {
+  margin-top: 10rem;
+  text-align: center;
+}
+.feedback-triger {
+  margin-top: 3rem;
+  padding: 4rem 10rem;
+  background: #fff;
+  text-align: center;
+}
+.feedback-triger h3 {
+  font-size: 1.3rem;
+}
+.feedback-triger label {
+  transform: translateY(110%);
+  background: #fff;
+}
+.feedback-triger-btn {
+  padding: 1rem 5rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+.hand {
+  position: absolute;
+  bottom: 10rem;
+  left: 0;
+  max-width: 20rem;
+}
+.media {
+  margin-top: 2rem;
+  display: flex;
+}
+.media-mt-0 {
+  margin-top: 1rem!important;
+}
+.avatar {
+  margin: 0.5rem 0 0 1rem;
+}
+/*Схема работ*/
+.plan {
+  margin-top: -8rem;
+  background: #fff url(../img/shemes/scheme-bg.png) bottom right -7rem no-repeat;
+  background-size: 35rem;
+}
+.plan h3 {
+  margin-bottom: 1.5rem;
+}
+.plan-header {
+  text-align: center;
+}
+.plan-header h2 {
+  margin-bottom: 3rem;
+}
+.plan-block {
+  display: inline-block;
+  text-align: left;
+}
+.plan-text {
+  font-size: 12px;
+}
+/*Гарантия*/
+.punct {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+.garand-header {
+  text-align: center;
+  margin-top: -8rem;
+  margin-bottom: 6rem;
+  color: #008000;
+  font-size: 3rem;
+}
+.garand-p {
+  text-align: center;
+}
+.media-h5 {
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+}
+.circle {
+  display: inline-block;
+  height: 100%;
+  border-radius: 50%;
+  background: #008000;
+  align-items: center;
+  color: #fff;
+}
+.circle-border {
+  display: inline-block;
+  text-align: center;
+  border: 2px solid #008000;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  line-height: 3rem;
+}
+.media-body {
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+}
+.boom {
+  padding-top: 0.8rem;
+}
+.problm-header {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+.problm-block-1 {
+  border: 2px solid #A9A9A9;
+  padding: 2rem;
+  min-height: 23rem;
+}
+.problm-block-1 h4 {
+  color: #A9A9A9;
+}
+.problm-block-2 {
+  border: 2px solid #008000;
+  padding: 2rem;
+  min-height: 20rem;
+}
+.problm-wooman {
+  position: absolute;
+  left: 38%;
+  transform: translateY(-28rem);
+}
+.problm-list-1 {
+  /* Убираем маркеры */
+  list-style-type: none;
+  line-height: 3rem;
+  font-size: 0.7rem;
+}
+.problm-list-1 li:before {
+  content: '';
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: url(../img/problems/problem.png) center no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+.problm-list-2 {
+  /* Убираем маркеры */
+  list-style-type: none;
+  font-size: 0.7rem;
+}
+.problm-list-2 li {
+  padding-bottom: 2rem;
+  position: relative;
+}
+.problm-list-2 li:before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -9%;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: url(../img/problems/good.png) center no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.materials-header {
+  text-align: center;
+}
+.materials-header h3 {
+  margin-bottom: 5rem;
+  font-size: 2.5rem;
+}
+.materials-block {
+  text-align: center;
+}
+.materials-img {
+  font-size: 0.9rem;
+  margin-left: -7rem;
+}
+.materials-img img {
+  height: 8.9rem;
+  width: 9rem;
+}
+.materials-img a {
+  color: #32CD32;
+  border-bottom: 2px dotted #32CD32;
+  text-decoration: none;
+}
+.materials-hesh {
+  margin-bottom: 1rem;
+}
+.materials-bottom {
+  text-align: center;
+  margin-top: 2rem;
+}
+.materials-bottom a {
+  color: #32CD32;
+  border-bottom: 2px dotted #32CD32;
+  text-decoration: none;
+}
+.excursion {
+  background: url(../img/our-work-bg.jpg) left no-repeat;
+  background-size: cover;
+  background-position: -26rem -5rem;
+}
+.excursion-form {
+  background: #fff;
+  text-align: center;
+  padding: 3rem 1.5rem 2rem;
+}
+.excursion-form small {
+  font-size: 0.6rem;
+}
+.excursion-form-header {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+.excursion-form-input {
+  display: inline-block;
+  margin: 1rem 0;
+  min-width: 100%;
+  border: 1px solid #dddddd;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.excursion-text {
+  margin-top: 2rem;
+}
+.excursion-text p {
+  font-size: 1.4rem;
+}
+.addit {
+  background: #006400;
+  text-align: center;
+  color: #fff;
+}
+.addit-header-p {
+  font-size: 1.3rem;
+}
+.addit-header-h2 {
+  margin: -5rem auto 4rem;
+}
+.addit-block {
+  display: inline-block;
+  margin-left: 5rem;
+}
+.addit-img p {
+  margin-top: 1rem;
+}
+.addit-img img {
+  height: 10rem;
+  width: 18rem;
+}
+.contakt {
+  background: url(../img/contacts-bg.jpg) center no-repeat;
+  background-size: cover;
+  background-position: -45rem -1rem;
+}
+.contakt-info p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.contakt-info a {
+  color: #32CD32;
+  border-bottom: 2px dotted #32CD32;
+  text-decoration: none;
+}
+.contakt-info h3 {
+  font-size: 2rem;
+}
+.foot-info {
+  text-align: center;
+  margin-top: -6%;
+}
+.foot-info a {
+  color: #32CD32;
+  border-bottom: 2px dotted #32CD32;
+  text-decoration: none;
+}
+.foot-dev {
+  text-align: right;
+  margin-top: -7%;
+}
+/*------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 1200px) {
+  .h3,
+  h3 {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 1199px) {
+  .feedback-form {
+    padding: 3rem 5rem;
+  }
+  .feedback .fotorama {
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 576px) {
+  .main {
+    background: #fff url(../img/main-bg.jpg) center center no-repeat;
+    background-size: 500%;
+    background-position: top right;
+  }
+  .big-more {
+    font-size: 20px;
+  }
+  .main-title {
+    text-align: left;
+    margin-top: 3rem;
+  }
+  .main-title h1 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  .main-title .main-subtitl {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+  .main-title .main-first {
+    color: #fff;
+    padding-bottom: 4rem;
+  }
+  .main-form label {
+    left: 50%;
+  }
+  .price-header-btn {
+    padding: 1rem 0.5rem;
+    margin: 0 8% 2rem;
+  }
+  .price-block {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .feedback-slider {
+    max-width: 100%;
+    margin: 0;
+  }
+  .feedback-two h3 {
+    font-size: 1rem;
+    text-align: center;
+    margin: 4rem 1rem;
+  }
+  .feedback-triger {
+    text-align: center;
+  }
+  .feedback-triger-input {
+    max-width: 18rem;
+  }
+  .feedback-triger-label {
+    left: 36%;
+    position: absolute;
+    transform: translateY(5px);
+    background: #fff;
+    padding: 0 0.3rem 0 0.3rem;
+  }
+  .feedback-triger-btn {
+    padding: 1.2rem 0;
+    min-width: 18rem;
+    margin-top: 2rem;
+  }
+  .ll {
+    left: 30%;
+  }
+  .form label {
+    left: 50%;
+  }
+  .plan {
+    background: #fff;
+  }
+  .hand {
+    display: none;
+  }
+  /*конец */
+}
