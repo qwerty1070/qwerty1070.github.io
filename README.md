@@ -1,9 +1,6 @@
-# Нишанов Шахруз
+# MR.Нишанов
+
+[Гипсолит](https://qwerty1070.github.io/Projekt/src/"Гипсолит")
 
 
-мои сайты
-
-[это мой первый сайт](https://qwerty1070.github.io/lesson_13/ "кликай сюда")
-
-[расписание](https://qwerty1070.github.io/lesson_14/) - расписание для 9 "А" класса
 
